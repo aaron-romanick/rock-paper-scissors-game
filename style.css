@@ -114,7 +114,7 @@ html {
     font-weight: 600;
     line-height: 1;
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1087px) {
     html {
         font-size: 24px;
     }
@@ -162,7 +162,7 @@ header {
     padding: 1.1em;
     width: 8rem;
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1087px) {
 }
 
 .top-heading button {
@@ -196,7 +196,7 @@ header {
     font-weight: 700;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1087px) {
     .top-heading {
         width: 10rem;
     }
@@ -253,7 +253,7 @@ main {
     }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1087px) {
     .stage {
         margin-top: 2rem;
     }
@@ -348,7 +348,7 @@ main {
     width: var(--token-inner-diameter);
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1087px) {
     .btn-token.player-choice  {
         transform: translate(-12rem, -7rem) scale(2.25);
     }
@@ -519,7 +519,7 @@ main {
     white-space: nowrap;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1087px) {
     .choice-label:first-of-type {
         transform: translate(-8.5rem, -13rem);
     }
@@ -570,7 +570,7 @@ main {
     filter: brightness(0.6);
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1087px) {
     .btn-play-again {
         border-radius: 0.33em;
         padding: 0.75em 3em;
@@ -598,7 +598,7 @@ main {
     filter: brightness(0.8);
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1087px) {
     .btn-rules-open {
         border-radius: calc(1rem / 3);
         border-width: calc(0.1rem / 3);
@@ -694,7 +694,7 @@ main {
     filter: brightness(0.7);
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1087px) {
     .rules {
         align-self: flex-end;
         margin-right: 1.5rem;
@@ -815,7 +815,7 @@ html:not(.bonus) .spock {
     display: none;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1087px) {
     html.bonus .top-heading {
         width: 7rem;
     }
