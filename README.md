@@ -31,8 +31,8 @@ Users should be able to:
 
 ### <a name="links"></a>Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/nisenihonjin/rock-paper-scissors-game](https://github.com/nisenihonjin/rock-paper-scissors-game)
+- Live Site URL: [https://nisenihonjin.github.io/rock-paper-scissors-game/](https://nisenihonjin.github.io/rock-paper-scissors-game/)
 
 ## <a name="my-process"></a>My Process
 
