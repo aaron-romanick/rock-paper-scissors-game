@@ -109,6 +109,7 @@ button {
  * General
  */
 html {
+    background-color: var(--haiti);
     font-family: var(--font-family);
     font-size: 16px;
     font-weight: 600;
@@ -218,7 +219,8 @@ main {
 
 .stage {
     flex: auto;
-    margin-top: -20%;
+    min-height: 25rem;
+    margin-top: -2rem;
 }
 
 .stage-background {
@@ -246,10 +248,19 @@ main {
     grid-row: 1;
 }
 
-/* Chrome-Only Style */
-@supports (-webkit-appearance:none) {
+/* Chrome 29+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
     .stage {
         margin-top: 0;
+    }
+}	
+
+/* Safari (10.1+) */
+@media not all and (min-resolution:.001dpcm) { 
+    @media {
+        .stage {
+            margin-top: -4rem;
+        }
     }
 }
 
