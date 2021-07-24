@@ -656,11 +656,11 @@ main {
 
 .rules-heading {
     color: var(--cello);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .rules-content {
-    width: 15rem;
+    width: 12rem;
 }
 
 .btn-rules-close {
@@ -772,6 +772,16 @@ main {
         right: 0.5rem;
         top: 0.5rem;
         transform: scale(60%);
+    }
+}
+
+@media only screen and (min-height: 667px) {
+    .rules-heading {
+        font-size: 2rem;
+    }
+
+    .rules-content {
+        width: 15rem;
     }
 }
 
