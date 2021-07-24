@@ -14,6 +14,12 @@ class Rules {
     * @returns {String}
     */
     get CLASS_ACTIVE() { return 'active' }
+    
+    /**
+    * Class name "dialog-active"
+    * @returns {String}
+    */
+    get CLASS_DIALOG_ACTIVE() { return 'dialog-active' }
 
     /**
     * @constructor
@@ -39,6 +45,7 @@ class Rules {
     * Initalizes DOM element properties so we can access them later
     */
     initDOMElements() {
+        this.body = document.body
         this.btnRulesOpen = document.querySelector('.btn-rules-open')
         this.rules = document.querySelector('.rules')
     }
@@ -68,9 +75,13 @@ class Rules {
         evt.cancelBubble = true
         if(evt.stopPropogation) evt.stopPropogation()
 
-        isActive
-            ? this.rules.classList.add(this.CLASS_ACTIVE)
-            : this.rules.classList.remove(this.CLASS_ACTIVE)
+        if(isActive) {
+            this.rules.classList.add(this.CLASS_ACTIVE)
+            this.body.classList.add(this.CLASS_DIALOG_ACTIVE)
+        } else {
+            this.rules.classList.remove(this.CLASS_ACTIVE)
+            this.body.classList.remove(this.CLASS_DIALOG_ACTIVE)
+        }
     }
 }
 
@@ -291,6 +302,7 @@ class Game {
     * @returns {String}
     */
     get CLASS_MASKED() { return 'masked' }
+
     /**
     * Class name "result-visible"
     * @returns {String}

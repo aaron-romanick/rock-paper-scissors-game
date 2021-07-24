@@ -128,6 +128,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 100%;
 }
 
 html, body {
@@ -141,9 +142,21 @@ button {
     text-transform: uppercase;
 }
 
+body.dialog-active {
+    overflow-y: hidden;
+    position: fixed;
+}
+
 .hidden {
     opacity: 0;
     visibility: hidden;
+}
+
+@media only screen and (min-width: 1087px) {
+    body.dialog-active {
+        overflow-y: visible;
+        position: static;
+    }
 }
 
 /**
@@ -163,8 +176,6 @@ header {
     font-size: inherit;
     padding: 1.1em;
     width: 8rem;
-}
-@media only screen and (min-width: 1087px) {
 }
 
 .top-heading button {
@@ -260,7 +271,7 @@ main {
 @media not all and (min-resolution:.001dpcm) { 
     @media {
         .stage {
-            margin-top: -4rem;
+            min-height: 26rem;
         }
     }
 }
@@ -627,12 +638,15 @@ main {
     background-color: var(--white);
     display: flex;
     flex-direction: column;
-    inset: 0;
+    height: 100vh;
+    top: 0;
+    left: 0;
     justify-content: space-evenly;
     position: absolute;
     transition: transform 500ms cubic-bezier(.08,.82,.17,1);
     transform: translateY(-100%);
     will-change: transform;
+    width: 100vw;
     z-index: 3;
 }
 
@@ -646,7 +660,7 @@ main {
 }
 
 .rules-content {
-    width: 18rem;
+    width: 15rem;
 }
 
 .btn-rules-close {
@@ -733,7 +747,9 @@ main {
     .rules-dialog {
         border-radius: 0.333rem;
         height: 23rem;
+        left: 50%;
         margin: 0 auto;
+        transform: translate(-50%, -100%);
         transition: top 500ms cubic-bezier(.08,.82,.17,1), transform 500ms cubic-bezier(.08,.82,.17,1);
         width: 18rem;
         will-change: top, transform;
@@ -741,7 +757,7 @@ main {
     
     .rules.active .rules-dialog {
         top: 50%;
-        transform: translateY(-50%);
+        transform: translate(-50%, -50%);
     }
 
     .rules-heading {
@@ -749,10 +765,6 @@ main {
         font-size: 1.5rem;
         margin-left: 2rem;
         margin-top: -1rem;
-    }
-
-    .rules-content {
-        width: 15rem;
     }
     
     .btn-rules-close {
