@@ -31,7 +31,7 @@ Users should be able to:
 
 ### <a name="links"></a>Links
 
-- Solution URL: [https://github.com/nisenihonjin/rock-paper-scissors-game](https://github.com/nisenihonjin/rock-paper-scissors-game)
+- Solution URL: [https://www.frontendmentor.io/solutions/rock-paper-scissors-game-with-javascript-and-css-class-toggling-CpNFmb8Hw](https://www.frontendmentor.io/solutions/rock-paper-scissors-game-with-javascript-and-css-class-toggling-CpNFmb8Hw)
 - Live Site URL: [https://nisenihonjin.github.io/rock-paper-scissors-game/](https://nisenihonjin.github.io/rock-paper-scissors-game/)
 
 ## <a name="my-process"></a>My Process
