@@ -131,11 +131,6 @@ body {
     width: 100%;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 body,
 button {
     letter-spacing: 0.1em;
