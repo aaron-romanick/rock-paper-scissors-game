@@ -32,7 +32,7 @@ Users should be able to:
 ### <a name="links"></a>Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/rock-paper-scissors-game-with-javascript-and-css-class-toggling-CpNFmb8Hw](https://www.frontendmentor.io/solutions/rock-paper-scissors-game-with-javascript-and-css-class-toggling-CpNFmb8Hw)
-- Live Site URL: [https://nisenihonjin.github.io/rock-paper-scissors-game/](https://nisenihonjin.github.io/rock-paper-scissors-game/)
+- Live Site URL: [https://aaron-romanick.github.io/rock-paper-scissors-game/](https://aaron-romanick.github.io/rock-paper-scissors-game/)
 
 ## <a name="my-process"></a>My Process
 
@@ -62,4 +62,4 @@ The SVGs in Safari get blurred due to scaling, and I couldn't really find a sati
 ## <a name="author"></a>Author
 
 - Website - [Aaron Romanick](https://www.aaronromanick.com)
-- Frontend Mentor - [@nisenihonjin](https://www.frontendmentor.io/profile/nisenihonjin)
+- Frontend Mentor - [@aaron-romanick](https://www.frontendmentor.io/profile/aaron-romanick)
