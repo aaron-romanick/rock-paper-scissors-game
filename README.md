@@ -27,7 +27,7 @@ Users should be able to:
 
 ### <a name="screenshot"></a>Screenshot
 
-![Rock, Paper, Scissors Solution](./images/screenshot.png)
+![Rock, Paper, Scissors Solution](./screenshot.png)
 
 ### <a name="links"></a>Links
 
