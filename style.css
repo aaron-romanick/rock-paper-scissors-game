@@ -220,12 +220,10 @@ header {
 main {
     align-items: center;
     display: flex;
-    flex: auto;
     flex-direction: column;
 }
 
 .stage {
-    flex: auto;
     min-height: 25rem;
     margin-top: -2rem;
 }
@@ -605,7 +603,7 @@ main {
     color: var(--white);
     font-weight: 600;
     letter-spacing: 0.3em;
-    margin-bottom: 3rem;
+    margin-block: 2rem 1rem;
     padding: 0.5em 1.5em;
     transition: filter 300ms;
     will-change: filter;
