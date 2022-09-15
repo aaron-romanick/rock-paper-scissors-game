@@ -17,3 +17,6 @@
 /design
 /notes.txt
 /style-guide.md
+
+# Deploy Bash Script
+deploy.sh
