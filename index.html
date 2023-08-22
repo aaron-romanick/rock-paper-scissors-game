@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="512x192" href="https://www.aaronromanick.com/favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://www.aaronromanick.com/favicon/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.aaronromanick.com/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.aaronromanick.com/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.aaronromanick.com/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://www.aaronromanick.com/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#223344">
+    <meta name="theme-color" content="#223344">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+<body>
+    <header aria-labelledby="rock-scissors-paper">
+        <h1 class="top-heading" title="Click here to alter game mode.">
+            <button aria-label="Toggle Game Mode">
+                <img src="images/logo.svg" alt="Rock, Scissors, Paper Logo" id="rock-scissors-paper">
+            </button>
+        </h1>
+        <div class="score" aria-labelledby="score-heading">
+            <h2 class="score-heading" id="score-heading">Score</h2>
+            <div class="score-points"></div>
+        </div>
+    </header>
+    <main>
+        <div class="stage">
+            <div class="stage-background" role="img" aria-label="Game board background image"></div>
+            <button class="btn-token scissors" aria-label="Scissors Token">
+                <span class="btn-token-outer">
+                    <span class="btn-token-inner"></span>
+                </span>
+            </button>
+            <button class="btn-token paper" aria-label="Paper Token">
+                <span class="btn-token-outer">
+                    <span class="btn-token-inner"></span>
+                </span>
+            </button>
+            <button class="btn-token rock" aria-label="Rock Token">
+                <span class="btn-token-outer">
+                    <span class="btn-token-inner"></span>
+                </span>
+            </button>
+            <button class="btn-token lizard" aria-label="Lizard Token">
+                <span class="btn-token-outer">
+                    <span class="btn-token-inner"></span>
+                </span>
+            </button>
+            <button class="btn-token spock" aria-label="Spock Token">
+                <span class="btn-token-outer">
+                    <span class="btn-token-inner"></span>
+                </span>
+            </button>
+            <p class="choice-label hidden">You picked</p>
+            <p class="choice-label hidden">The house picked</p>
+            <div class="result hidden">
+                <h2 class="result-heading"></h2>
+                <button class="btn-play-again">
+                    Play Again
+                </button>
+            </div>
+        </div>
+        <div class="rules">
+            <button class="btn-rules-open">
+                Rules
+            </button>
+            <div class="rules-overlay" aria-hidden="true"></div>
+            <aside class="rules-dialog" aria-labelledby="game-rules">
+                <h2 class="rules-heading" id="game-rules">Rules</h2>
+                <img src="images/rules.svg" class="rules-content" alt="Rules for Playing Rock, Scissors, Paper">
+                <button class="btn-rules-close" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+            </aside>
+        </div>
+    </main>
+</body>
+</html>
